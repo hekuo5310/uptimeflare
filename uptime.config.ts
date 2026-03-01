@@ -56,7 +56,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'blog',
       name: '博客',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://www.io.hk.cn/',
       statusPageLink: 'https://www.io.hk.cn/',
       hideLatencyChart: false,
@@ -66,7 +66,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'gemini',
       name: 'gemini免费api',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://gemini.hkmc.online/',
       statusPageLink: 'https://gemini.hkmc.online/',
       hideLatencyChart: false,
@@ -76,7 +76,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'gemini_pay',
       name: 'gemini付费api',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://pay.gemini.hkmc.online/',
       statusPageLink: 'https://pay.gemini.hkmc.online/',
       hideLatencyChart: false,
@@ -86,7 +86,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'openrouter_api_proxy',
       name: 'openrouter免费api',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://openrouter.io.hk.cn/',
       statusPageLink: 'https://openrouter.io.hk.cn/',
       hideLatencyChart: false,
@@ -96,7 +96,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'cloud',
       name: 'HKMC云',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://cloud.hkmc.online/',
       statusPageLink: 'https://cloud.hkmc.online/',
       hideLatencyChart: false,
@@ -116,7 +116,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'telegram_proxy',
       name: 'Telegram 代理',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://web.tg.io.hk.cn/index1',
       statusPageLink: 'https://web.tg.io.hk.cn/index1',
       hideLatencyChart: false,
@@ -126,7 +126,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'telegram_api_proxy',
       name: 'Telegram api 代理',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://api.tg.io.hk.cn/',
       statusPageLink: 'https://api.tg.io.hk.cn/',
       hideLatencyChart: false,
@@ -136,7 +136,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'fgy',
       name: '浮光屿网站',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://www.fgy233.top/',
       statusPageLink: 'https://www.fgy233.top/',
       hideLatencyChart: false,
@@ -146,7 +146,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'miaoju',
       name: '喵聚弹幕网',
-      method: 'HEAD',
+      method: 'GET',
       target: 'https://www.miaoju.top/',
       statusPageLink: 'https://www.miaoju.top/',
       hideLatencyChart: false,
