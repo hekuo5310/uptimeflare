@@ -84,8 +84,8 @@ const workerConfig: WorkerConfig = {
       timeout: 10000,
     },
     {
-      id: 'openrouter免费api',
-      name: 'VaultWarden（NAS）',
+      id: 'openrouter_api_proxy',
+      name: 'openrouter免费api',
       method: 'HEAD',
       target: 'https://openrouter.io.hk.cn/',
       statusPageLink: 'https://openrouter.io.hk.cn/',
